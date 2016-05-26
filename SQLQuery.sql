@@ -12,3 +12,4 @@ FROM Purchaises
 WHERE ProductName = 'сметана' AND PurchaiseDatetime >= DATEADD(MONTH, -1, GETDATE())
 )
 )
+
